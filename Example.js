@@ -1,8 +1,8 @@
 $(document).ready(() => {
   $('.hover').on('mouseover', () => {
-      $('.hover-box').show()
+      $('#box-animate').fadeIn();
   })
   $('.hover-box').on('mouseleave', () => {
-      $('.hover-box').hide();
+      $('#box-animate').fadeOut();
   })
 })

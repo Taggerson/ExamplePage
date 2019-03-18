@@ -6,7 +6,7 @@
 }
 
 #header {
-  display: inline-block;
+  display: inline;
   position: fixed;
   margin: auto;
   padding: 0px;
@@ -24,26 +24,31 @@ body {
 }
 
 .hover {
-  text-align: right;
+  float: right;
   margin: 5px;
   padding: 0px;
 }
 
 .hover-box {
-  margin-top: 8px;
+  position: fixed;
+  margin-top: 40px;
   padding: 3px;
   box-sizing: border-box;
   border-style: solid;
   border-width: 1px;
-  border-color: gray;
+  border-color: black;
   float: right;
   background-color: gray;
-  height: 150px;
-  width: 20%;
   text-align: center;
+  height: 130px;
+  right: 0px;
   display: none;
 }
 
 .login {
   text-align: left;
+}
+
+
+#box-animate {
 }
