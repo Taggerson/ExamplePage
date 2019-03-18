@@ -1,8 +1,8 @@
 $(document).ready(() => {
-  $('.header').on('mouseover', event => {
-      $(event.currentTarget).text('Hovered')
+  $('.hover').on('mouseover', () => {
+      $('.hover-box').show()
   })
-  $('.header').on('mouseleave', event => {
-      $(event.currentTarget).text('Hover Me')
+  $('.hover-box').on('mouseleave', () => {
+      $('.hover-box').hide();
   })
 })
